@@ -1,0 +1,27 @@
+body{
+    background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+}
+
+img{
+    border-radius: 10%;
+}
+
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #413fc0;
+    border: none;
+    border-radius: 15px;
+  }
+  
+.button:hover {background-color: #3e8e41}
+  
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
